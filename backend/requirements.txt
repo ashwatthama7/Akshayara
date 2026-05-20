@@ -1,0 +1,23 @@
+# Core API & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.31.0
+python-multipart>=0.0.12
+
+# ML & Computer Vision
+torch
+torchvision
+opencv-python>=4.10.0.84
+numpy>=1.26.0
+Pillow
+scikit-learn
+joblib
+
+# Database & Config
+pydantic-settings
+SQLAlchemy
+alembic
+asyncpg
+
+# Testing
+httpx
+pytest
